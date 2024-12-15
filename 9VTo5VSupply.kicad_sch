@@ -1320,12 +1320,6 @@
 		(uuid "20cf9ac0-4a3d-4256-a9a7-084701bd1f9d")
 	)
 	(junction
-		(at 180.34 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2d727c36-ef18-462a-9ac8-6cb42fe734f5")
-	)
-	(junction
 		(at 167.64 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1485,16 +1479,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 111.76) (xy 186.69 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35010782-ae62-46de-9c9d-d1523efa501a")
-	)
-	(wire
-		(pts
 			(xy 132.08 101.6) (xy 147.32 101.6)
 		)
 		(stroke
@@ -1545,7 +1529,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 93.98) (xy 101.6 93.98)
+			(xy 100.33 93.98) (xy 116.84 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1745,16 +1729,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 93.98) (xy 116.84 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc8d40fb-b533-4f8f-93d3-a8f0b42acfe8")
-	)
-	(wire
-		(pts
 			(xy 147.32 77.47) (xy 147.32 80.01)
 		)
 		(stroke
@@ -1798,18 +1772,6 @@
 			(justify left)
 		)
 		(uuid "bf669d8b-bf60-4166-9cdb-54eb042ff5e2")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 186.69 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d08ecf12-729a-481e-845a-447f7439092c")
 	)
 	(hierarchical_label "VBatt_Sense"
 		(shape input)
@@ -2793,75 +2755,6 @@
 			(project "WeddingCenterPieces"
 				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1/5e4c62e3-b615-407a-9cf1-a60a2c093e49"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N5819")
-		(at 105.41 93.98 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf0c0166-b78f-435f-816e-7aef753b041e")
-		(property "Reference" "D1"
-			(at 105.0925 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N5819"
-			(at 105.0925 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 105.41 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-			(at 105.41 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c36e12ef-3645-4377-83b2-30e25fbfcba9")
-		)
-		(pin "2"
-			(uuid "d841a73c-6a64-4d42-a908-77bc8efc96d6")
-		)
-		(instances
-			(project "WeddingCenterPieces"
-				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1/5e4c62e3-b615-407a-9cf1-a60a2c093e49"
-					(reference "D1")
 					(unit 1)
 				)
 			)

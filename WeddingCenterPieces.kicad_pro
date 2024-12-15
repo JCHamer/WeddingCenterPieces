@@ -574,6 +574,22 @@
     [
       "5e4c62e3-b615-407a-9cf1-a60a2c093e49",
       "9VTo5VSupply"
+    ],
+    [
+      "fc5f2ec4-3886-4f1b-8c95-266f3b52f8eb",
+      "Microcontroller"
+    ],
+    [
+      "bc29a0ee-f798-4f3b-aeba-4202e27d4f36",
+      "External Connectors"
+    ],
+    [
+      "959cab23-3f14-4c5e-8fa4-11c71d6f64e0",
+      "Lighting"
+    ],
+    [
+      "102c4ac7-9dfb-411a-bce5-c6035c42c9ce",
+      "Key Switches"
     ]
   ],
   "text_variables": {}
