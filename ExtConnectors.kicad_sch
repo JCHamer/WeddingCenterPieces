@@ -2882,22 +2882,28 @@
 		)
 	)
 	(junction
+		(at 218.44 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13f38a37-b5dc-428d-9c37-2dee167e010e")
+	)
+	(junction
 		(at 157.48 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a453581-bc60-402c-9d19-d7123012ed58")
 	)
 	(junction
+		(at 264.16 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ecb550e-3a81-4d49-8268-e8c81597884e")
+	)
+	(junction
 		(at 232.41 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "577fe634-e369-4b25-b80f-e0d608e46a78")
-	)
-	(junction
-		(at 264.16 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "888f1647-eab7-4c2f-bda7-0a6db93d9a4c")
 	)
 	(junction
 		(at 181.61 48.26)
@@ -2910,12 +2916,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af4aa408-a1df-482d-a7e6-3d61bc603ade")
-	)
-	(junction
-		(at 218.44 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b66955ad-2608-4189-9a0f-b8b476969291")
 	)
 	(junction
 		(at 173.99 68.58)
@@ -3145,16 +3145,6 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "7a7d1a7f-bbf5-4d2a-a307-338294fc35a7")
-	)
-	(wire
-		(pts
-			(xy 218.44 48.26) (xy 232.41 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
 		(uuid "86ca6700-9f09-4703-88a0-27d70baaddae")
 	)
 	(wire
@@ -3266,6 +3256,16 @@
 			(type default)
 		)
 		(uuid "e05ff1e5-35c2-4140-8018-294d7d2ee26b")
+	)
+	(wire
+		(pts
+			(xy 218.44 48.26) (xy 232.41 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb381f6c-3b70-415b-840d-11065e35d959")
 	)
 	(wire
 		(pts
@@ -3547,7 +3547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00f59f5d-05ad-40a8-8070-019a85ab1efd")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR0102"
 			(at 157.48 95.25 0)
 			(effects
 				(font
@@ -3597,7 +3597,7 @@
 		(instances
 			(project "cheapino"
 				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1/bc29a0ee-f798-4f3b-aeba-4202e27d4f36"
-					(reference "#PWR02")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -3737,8 +3737,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "28b53694-7863-43fd-b978-3cc2f5548c29")
-		(property "Reference" "R1"
+		(uuid "2b1d8629-2e7c-4a49-81ac-cb093e2512dd")
+		(property "Reference" "R11"
 			(at 190.5 87.63 90)
 			(effects
 				(font
@@ -3782,21 +3782,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3d2a0671-2141-4f85-9b28-552eaf3c8e7b")
+			(uuid "d5bbc910-5ffb-478d-928a-a13d6429522e")
 		)
 		(pin "2"
-			(uuid "2611d7ee-9b44-43e2-978f-56088ec16118")
+			(uuid "1f6b828c-2f07-4ae7-8087-998d11662ee5")
 		)
 		(instances
-			(project ""
+			(project "WeddingCenterPieces"
 				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1/bc29a0ee-f798-4f3b-aeba-4202e27d4f36"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/e6ab333d-5f1a-4b76-81c6-498aebdc0c3b"
-					(reference "R1")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3869,80 +3863,6 @@
 			(project "WeddingCenterPieces"
 				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1/bc29a0ee-f798-4f3b-aeba-4202e27d4f36"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 190.5 102.87 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "34221e7e-6cdb-411a-ae2c-60eb01d5af0e")
-		(property "Reference" "R2"
-			(at 190.5 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 190.5 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 190.5 104.648 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 190.5 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e714a84-5606-438d-937c-c02d49ed3255")
-		)
-		(pin "2"
-			(uuid "7abcfe01-4518-43ab-b7f4-5d8a83b1520b")
-		)
-		(instances
-			(project "cheapino"
-				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1/bc29a0ee-f798-4f3b-aeba-4202e27d4f36"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/e6ab333d-5f1a-4b76-81c6-498aebdc0c3b"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4050,7 +3970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4295ae79-be00-4444-ba10-b0aa1ecbc982")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR0103"
 			(at 208.28 91.44 0)
 			(effects
 				(font
@@ -4100,7 +4020,7 @@
 		(instances
 			(project "cheapino"
 				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1/bc29a0ee-f798-4f3b-aeba-4202e27d4f36"
-					(reference "#PWR07")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -4122,7 +4042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f503580-4cf1-44e4-8e0a-df987cfe745f")
-		(property "Reference" "U3"
+		(property "Reference" "U7"
 			(at 251.46 41.91 0)
 			(effects
 				(font
@@ -4183,13 +4103,82 @@
 		(instances
 			(project ""
 				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1/bc29a0ee-f798-4f3b-aeba-4202e27d4f36"
-					(reference "U3")
+					(reference "U7")
 					(unit 1)
 				)
 			)
 			(project ""
 				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/e6ab333d-5f1a-4b76-81c6-498aebdc0c3b"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 218.44 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "574e2086-f1c5-4518-9804-ee3eb2f0c3a1")
+		(property "Reference" "C17"
+			(at 222.25 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1μF"
+			(at 222.25 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 219.4052 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 218.44 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e3e7e2da-d79f-45b3-9b5a-53f76d257e47")
+		)
+		(pin "1"
+			(uuid "a12c6315-e673-4e50-b32d-2c236357fdeb")
+		)
+		(instances
+			(project "WeddingCenterPieces"
+				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1/bc29a0ee-f798-4f3b-aeba-4202e27d4f36"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -4341,6 +4330,74 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 190.5 102.87 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66f32f84-69ae-41c9-81d0-d3a18a884ca1")
+		(property "Reference" "R12"
+			(at 190.5 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 190.5 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 190.5 104.648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 190.5 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "617fdfd6-75f5-4a41-9571-79e18aa85436")
+		)
+		(pin "2"
+			(uuid "5a291e99-9578-4f51-aa11-e84230445ca2")
+		)
+		(instances
+			(project "WeddingCenterPieces"
+				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1/bc29a0ee-f798-4f3b-aeba-4202e27d4f36"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 232.41 52.07 0)
 		(mirror x)
 		(unit 1)
@@ -4349,7 +4406,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a963d07-d097-49cb-9622-49c574f1ac89")
-		(property "Reference" "R3"
+		(property "Reference" "R13"
 			(at 234.95 53.3401 0)
 			(effects
 				(font
@@ -4403,7 +4460,7 @@
 		(instances
 			(project ""
 				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1/bc29a0ee-f798-4f3b-aeba-4202e27d4f36"
-					(reference "R3")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -4494,7 +4551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cc22345-f0dc-4d4a-9725-4b4a00ff098f")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR0104"
 			(at 196.85 110.49 0)
 			(effects
 				(font
@@ -4544,7 +4601,7 @@
 		(instances
 			(project "cheapino"
 				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1/bc29a0ee-f798-4f3b-aeba-4202e27d4f36"
-					(reference "#PWR03")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -4624,6 +4681,76 @@
 			(project "WeddingCenterPieces"
 				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1/bc29a0ee-f798-4f3b-aeba-4202e27d4f36"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 264.16 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "786cc54d-855f-4821-957b-e42bc37d2241")
+		(property "Reference" "C18"
+			(at 267.97 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1μF"
+			(at 267.97 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 265.1252 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 264.16 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d5231938-b85b-454a-bc95-362d71f59d5b")
+		)
+		(pin "1"
+			(uuid "408ca4d7-b1c2-4777-a568-f4bff751478a")
+		)
+		(instances
+			(project "WeddingCenterPieces"
+				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1/bc29a0ee-f798-4f3b-aeba-4202e27d4f36"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -4835,157 +4962,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 218.44 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a0cdc128-c0b6-4cb6-ac42-1c1315a2971d")
-		(property "Reference" "C1"
-			(at 222.25 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1μF"
-			(at 222.25 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 219.4052 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 218.44 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 218.44 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d646629f-e37c-4ec8-b68b-6f56f71837c6")
-		)
-		(pin "1"
-			(uuid "a592fc41-b1ff-42be-bf18-7092b56c3ef8")
-		)
-		(instances
-			(project ""
-				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1/bc29a0ee-f798-4f3b-aeba-4202e27d4f36"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/e6ab333d-5f1a-4b76-81c6-498aebdc0c3b"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 264.16 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3d341df-2c34-4419-a33e-75b62cb20414")
-		(property "Reference" "C2"
-			(at 267.97 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1μF"
-			(at 267.97 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 265.1252 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 264.16 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 264.16 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "40fc669c-9f0e-47f9-b619-e315103141a2")
-		)
-		(pin "1"
-			(uuid "ddbee789-38fa-4dc4-8eae-878a9255e366")
-		)
-		(instances
-			(project "cheapino"
-				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1/bc29a0ee-f798-4f3b-aeba-4202e27d4f36"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/e6ab333d-5f1a-4b76-81c6-498aebdc0c3b"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 196.85 95.25 0)
 		(unit 1)
@@ -4995,7 +4971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5c05d29-a44d-4a22-b7a9-4b618f5f87e2")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR0105"
 			(at 196.85 101.6 0)
 			(effects
 				(font
@@ -5045,7 +5021,7 @@
 		(instances
 			(project "cheapino"
 				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1/bc29a0ee-f798-4f3b-aeba-4202e27d4f36"
-					(reference "#PWR04")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -5067,7 +5043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0b6b6fd-2e4e-4425-8045-5215c8058293")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR0101"
 			(at 218.44 62.23 0)
 			(effects
 				(font
@@ -5117,7 +5093,7 @@
 		(instances
 			(project "cheapino"
 				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1/bc29a0ee-f798-4f3b-aeba-4202e27d4f36"
-					(reference "#PWR05")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)

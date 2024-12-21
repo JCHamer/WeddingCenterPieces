@@ -1,0 +1,12 @@
+Error: Duplicate items D2
+
+Error: Duplicate items R1
+
+Error: Duplicate items R2
+
+Error: Duplicate items R3
+
+Error: Duplicate items R4
+
+Error: Duplicate items SW1
+

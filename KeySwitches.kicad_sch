@@ -964,7 +964,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5b058a7-a613-4860-ae86-0bfc6a0f779a")
 		(property "Reference" "K2"
-			(at 50.8 65.405 0)
+			(at 50.8 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -972,7 +972,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 50.8 67.945 0)
+			(at 50.8 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1036,7 +1036,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee85cbeb-b1d6-4c15-83ef-777062e8980c")
-		(property "Reference" "D2"
+		(property "Reference" "D10"
 			(at 60.96 66.04 0)
 			(effects
 				(font
@@ -1088,7 +1088,7 @@
 		(instances
 			(project "cheapino"
 				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1/102c4ac7-9dfb-411a-bce5-c6035c42c9ce"
-					(reference "D2")
+					(reference "D10")
 					(unit 1)
 				)
 			)

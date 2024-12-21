@@ -2406,12 +2406,6 @@
 		(uuid "437c4f32-4ed2-43cc-9a45-7ac7930bfeba")
 	)
 	(junction
-		(at 119.38 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4cb76b54-fe6c-4443-8a5e-f444065a6f1c")
-	)
-	(junction
 		(at 160.02 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2476,6 +2470,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbecd738-98fc-48ed-9544-566891039dc4")
+	)
+	(junction
+		(at 119.38 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d131176c-f082-4788-8d49-c20990996a9b")
 	)
 	(junction
 		(at 204.47 29.21)
@@ -2585,7 +2585,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 54.61) (xy 127 54.61)
+			(xy 111.76 54.61) (xy 119.38 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2975,6 +2975,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 54.61) (xy 127 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5a1ac53-059b-43cb-8f01-eb9186b51547")
+	)
+	(wire
+		(pts
 			(xy 86.36 144.78) (xy 99.06 144.78)
 		)
 		(stroke
@@ -3082,16 +3092,6 @@
 			(type default)
 		)
 		(uuid "de7de800-3a6d-4806-9875-ae666874661f")
-	)
-	(wire
-		(pts
-			(xy 111.76 54.61) (xy 119.38 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4f1f877-5c8e-4768-b235-9beda0a9393e")
 	)
 	(wire
 		(pts
@@ -4255,6 +4255,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 119.38 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a7a68e5-ed1d-4f09-8eea-451a1a74d7f8")
+		(property "Reference" "R14"
+			(at 121.92 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 121.92 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 117.602 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 119.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11e7450c-9b87-4057-828a-9bd05c34faa6")
+		)
+		(pin "2"
+			(uuid "cc61c383-35b9-4c19-9358-1a8bb738d186")
+		)
+		(instances
+			(project "WeddingCenterPieces"
+				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1/fc5f2ec4-3886-4f1b-8c95-266f3b52f8eb"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_RaspberryPi:RP2040")
 		(at 152.4 92.71 0)
 		(unit 1)
@@ -5230,82 +5300,6 @@
 			(project ""
 				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/b2f85b86-5933-4a5f-88c2-315afb4ca3cd"
 					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 119.38 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5721a1c6-2d67-4661-9647-a33f0f1c43b9")
-		(property "Reference" "R4"
-			(at 121.92 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 121.92 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 117.602 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 119.38 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d063d974-708a-4ce8-a18b-b8ea0ac4ee82")
-		)
-		(pin "2"
-			(uuid "6503c9cf-26f7-436b-bb14-bb9cde4033ac")
-		)
-		(instances
-			(project ""
-				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1/fc5f2ec4-3886-4f1b-8c95-266f3b52f8eb"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/b2f85b86-5933-4a5f-88c2-315afb4ca3cd"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6497,7 +6491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3ab691e-6262-4bff-a585-093894c68aae")
-		(property "Reference" "SW1"
+		(property "Reference" "SW3"
 			(at 50.8 140.97 0)
 			(effects
 				(font
@@ -6557,7 +6551,7 @@
 		(instances
 			(project "cheapino"
 				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1/fc5f2ec4-3886-4f1b-8c95-266f3b52f8eb"
-					(reference "SW1")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
