@@ -440,7 +440,7 @@
 		)
 		(uuid "f046e931-483d-4eee-8252-3a08d7e74e1d")
 	)
-	(label "Col1"
+	(label "COL_1"
 		(at 45.72 34.29 0)
 		(fields_autoplaced yes)
 		(effects
@@ -684,7 +684,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keebio:Diode-dual"
+		(property "Footprint" "Keebio-Parts:Diode-dual"
 			(at 101.6 73.66 0)
 			(effects
 				(font
@@ -832,7 +832,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keebio:Diode-dual"
+		(property "Footprint" "Keebio-Parts:Diode-dual"
 			(at 101.6 48.26 0)
 			(effects
 				(font
@@ -905,7 +905,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keebio:Diode-dual"
+		(property "Footprint" "Keebio-Parts:Diode-dual"
 			(at 60.96 48.26 0)
 			(effects
 				(font
@@ -1052,7 +1052,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keebio:Diode-dual"
+		(property "Footprint" "Keebio-Parts:Diode-dual"
 			(at 60.96 73.66 0)
 			(effects
 				(font

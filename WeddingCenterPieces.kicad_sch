@@ -150,23 +150,23 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
+		(symbol "Mechanical:MountingHole"
 			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
-				(at 0 6.35 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -191,7 +191,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole with connection"
+			(property "Description" "Mounting Hole without connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -209,7 +209,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
+			(property "ki_fp_filters" "MountingHole*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -218,9 +218,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_Pad_0_1"
+			(symbol "MountingHole_0_1"
 				(circle
-					(center 0 1.27)
+					(center 0 0)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -228,26 +228,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -625,136 +605,12 @@
 				)
 			)
 		)
-		(symbol "power:GND"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-	)
-	(junction
-		(at 50.8 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73aa4b01-3a01-40ca-8fbe-2d741bb21c20")
 	)
 	(junction
 		(at 53.34 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79fb605e-1124-4b21-bd60-8e95ae21ca13")
-	)
-	(junction
-		(at 45.72 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "90f5b5c1-80a5-41d1-af04-c50d48554f4c")
-	)
-	(junction
-		(at 55.88 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98d91e13-896b-458f-9574-19d0d5fe750d")
-	)
-	(wire
-		(pts
-			(xy 45.72 161.29) (xy 50.8 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0367b72d-a1e6-49cc-b7c8-9def34661bb5")
 	)
 	(wire
 		(pts
@@ -795,6 +651,26 @@
 			(type default)
 		)
 		(uuid "176211db-a41c-4a74-81aa-cc0f38c1ea1c")
+	)
+	(wire
+		(pts
+			(xy 233.68 49.53) (xy 233.68 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "212372b8-1110-4842-ab57-e8556b9faff2")
+	)
+	(wire
+		(pts
+			(xy 104.14 83.82) (xy 104.14 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "235d2ccf-bda6-4581-bcd3-68907ee15f27")
 	)
 	(wire
 		(pts
@@ -845,16 +721,6 @@
 			(type default)
 		)
 		(uuid "36487f5f-4f01-4c94-9d40-e7281d11214e")
-	)
-	(wire
-		(pts
-			(xy 55.88 161.29) (xy 60.96 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dc41795-4dd9-4bd3-96a9-ceacdedb0fc0")
 	)
 	(wire
 		(pts
@@ -928,13 +794,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 161.29) (xy 55.88 161.29)
+			(xy 229.87 81.28) (xy 229.87 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "619684f7-8fd5-4193-b48d-013b4220bdbc")
+		(uuid "52d6e495-a057-49be-8dba-1b0de96c6d59")
 	)
 	(wire
 		(pts
@@ -945,6 +811,16 @@
 			(type default)
 		)
 		(uuid "6472ee41-5c81-494b-b5a5-bf3e2b93af04")
+	)
+	(wire
+		(pts
+			(xy 101.6 81.28) (xy 229.87 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a0e395a-dccd-47a2-95c8-38a7384d43a5")
 	)
 	(wire
 		(pts
@@ -1068,6 +944,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 52.07) (xy 226.06 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86365d4b-bc81-4355-875f-1b6f884afbf7")
+	)
+	(wire
+		(pts
 			(xy 139.7 117.475) (xy 120.65 117.475)
 		)
 		(stroke
@@ -1158,6 +1044,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 49.53) (xy 233.68 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce5557df-a24d-4168-bb32-f1028cd1d3c1")
+	)
+	(wire
+		(pts
 			(xy 101.6 120.65) (xy 101.6 152.4)
 		)
 		(stroke
@@ -1175,6 +1071,16 @@
 			(type default)
 		)
 		(uuid "d53e7f75-1980-4f07-be1a-5a2ea321fcc3")
+	)
+	(wire
+		(pts
+			(xy 101.6 95.25) (xy 101.6 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66075f1-e16a-41be-908c-c7185f9205e2")
 	)
 	(wire
 		(pts
@@ -1218,6 +1124,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 83.82) (xy 233.68 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f56e4185-64d8-4df2-ad02-320a443510dd")
+	)
+	(wire
+		(pts
 			(xy 66.04 102.87) (xy 66.04 62.23)
 		)
 		(stroke
@@ -1236,6 +1152,70 @@
 			(justify left bottom)
 		)
 		(uuid "0389693a-9c49-4a03-8588-e5e98538635f")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 43.18 162.56 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12c7d2ca-846a-4eec-9284-11cb2ec70fd2")
+		(property "Reference" "H2"
+			(at 45.72 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 45.72 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 43.18 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 43.18 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "WeddingCenterPieces"
+				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -1298,6 +1278,70 @@
 			(project "WeddingCenterPieces"
 				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 43.18 172.72 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e215d73-a744-47e4-8d65-6caf3db7bb13")
+		(property "Reference" "H4"
+			(at 45.72 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 45.72 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 43.18 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 43.18 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "WeddingCenterPieces"
+				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -1370,37 +1414,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 60.96 158.75 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 43.18 167.64 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "784741e8-eab1-4fc6-99c6-77e002e656b1")
-		(property "Reference" "H4"
-			(at 63.5 156.21 0)
+		(uuid "71e684e7-5e3a-4072-ad55-099ef227962b")
+		(property "Reference" "H3"
+			(at 45.72 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 63.5 158.75 0)
+		(property "Value" "MountingHole"
+			(at 45.72 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
-			(at 60.96 158.75 0)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 43.18 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1409,7 +1451,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 158.75 0)
+			(at 43.18 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1417,59 +1459,54 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 60.96 158.75 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 43.18 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "a98867df-802c-4294-8376-f7f4669b5e64")
 		)
 		(instances
 			(project "WeddingCenterPieces"
 				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1"
-					(reference "H4")
+					(reference "H3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 45.72 158.75 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 43.18 157.48 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8d696143-0fd4-41af-83b2-3d4074488f90")
+		(uuid "756fb4b5-c410-4b7c-8921-149d732e073f")
 		(property "Reference" "H1"
-			(at 48.26 156.21 0)
+			(at 45.72 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 48.26 158.75 0)
+		(property "Value" "MountingHole"
+			(at 45.72 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
-			(at 45.72 158.75 0)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 43.18 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1478,7 +1515,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 158.75 0)
+			(at 43.18 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1486,17 +1523,14 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 45.72 158.75 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 43.18 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "70632299-40c7-4453-a19c-0819d7304ee9")
 		)
 		(instances
 			(project "WeddingCenterPieces"
@@ -1574,217 +1608,13 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 55.88 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a4dc356-d557-4743-b44b-0bad58cfeb8d")
-		(property "Reference" "H3"
-			(at 58.42 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 58.42 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
-			(at 55.88 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b0592042-0c53-4cb2-97e2-c29e1cf8e759")
-		)
-		(instances
-			(project "WeddingCenterPieces"
-				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 45.72 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c133f621-ed18-4443-8f88-d031bfe6ed34")
-		(property "Reference" "#PWR04"
-			(at 45.72 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 45.72 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 45.72 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a5f7158-7d4e-4847-b6f8-e7cba6c1d1b0")
-		)
-		(instances
-			(project "WeddingCenterPieces"
-				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 50.8 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c181b36b-2eb7-47bf-8dc6-4254ffc3fb67")
-		(property "Reference" "H2"
-			(at 53.34 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 53.34 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
-			(at 50.8 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3077e0f9-d77d-49d0-a21a-e0a105c75cc8")
-		)
-		(instances
-			(project "WeddingCenterPieces"
-				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N5819")
 		(at 127 52.07 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9da46e7-9666-4eba-bba0-2e7ec760c2c8")
