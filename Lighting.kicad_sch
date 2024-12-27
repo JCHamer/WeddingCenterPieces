@@ -1192,12 +1192,6 @@
 		(uuid "2383936a-d0b1-44ed-8275-fca22d940760")
 	)
 	(junction
-		(at 205.74 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31e5e9d1-df35-445a-881f-2a39d0db22f8")
-	)
-	(junction
 		(at 147.32 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1228,12 +1222,6 @@
 		(uuid "8d4a1c64-f6a3-465e-b667-e84282984789")
 	)
 	(junction
-		(at 205.74 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e54ec47-6e66-4da2-86cf-f2138aca29fe")
-	)
-	(junction
 		(at 154.94 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1254,16 +1242,6 @@
 			(type default)
 		)
 		(uuid "036d928b-3ba9-4501-9d19-3ca75dbb8a3a")
-	)
-	(wire
-		(pts
-			(xy 205.74 41.91) (xy 231.14 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14150f7f-bff4-4b61-b810-59b4310ed010")
 	)
 	(wire
 		(pts
@@ -1437,16 +1415,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 55.88) (xy 251.46 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f3a73ad-0676-4ed6-9404-839ed42ed1a1")
-	)
-	(wire
-		(pts
 			(xy 180.34 46.99) (xy 180.34 41.91)
 		)
 		(stroke
@@ -1454,16 +1422,6 @@
 			(type default)
 		)
 		(uuid "7349c877-a5d7-4a29-aeb2-b2bf864fab74")
-	)
-	(wire
-		(pts
-			(xy 231.14 64.77) (xy 231.14 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c1311b3-1e0f-4f70-ad62-0781fea6b7aa")
 	)
 	(wire
 		(pts
@@ -1484,16 +1442,6 @@
 			(type default)
 		)
 		(uuid "830beb6f-edd1-4a08-8b08-c06a97692149")
-	)
-	(wire
-		(pts
-			(xy 231.14 46.99) (xy 231.14 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "833b57de-474c-43b7-b435-330847792453")
 	)
 	(wire
 		(pts
@@ -1617,16 +1565,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 67.31) (xy 231.14 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbf1fb4b-9720-42f9-95e0-43bb8bd27903")
-	)
-	(wire
-		(pts
 			(xy 49.53 77.47) (xy 49.53 49.53)
 		)
 		(stroke
@@ -1701,7 +1639,7 @@
 	)
 	(hierarchical_label "DOUT_0"
 		(shape input)
-		(at 251.46 55.88 0)
+		(at 222.25 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2126,7 +2064,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 125.73 36.83 0)
 			(effects
 				(font
@@ -2381,79 +2319,6 @@
 			(project "cheapino"
 				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/23d46689-c88a-4d8a-9ead-5dd5573c8b8b"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Extra:SK6812Mini-E")
-		(at 231.14 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca974961-f6f4-40b6-ae75-ef0cb5497ee5")
-		(property "Reference" "D11"
-			(at 236.982 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 250.19 52.7365 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Extra:SK6812-MINI-E_ReverseMount"
-			(at 231.14 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 231.14 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "73eb655d-60be-41e6-ae00-40daa89640bb")
-		)
-		(pin "4"
-			(uuid "5d577475-3615-4417-b0f7-51f46efa1a7f")
-		)
-		(pin "1"
-			(uuid "dd2e75fe-9a67-4c58-b149-adfee45eb829")
-		)
-		(pin "2"
-			(uuid "af875ed0-7fb8-4270-8f15-1c68678aac7e")
-		)
-		(instances
-			(project "WeddingCenterPieces"
-				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1/959cab23-3f14-4c5e-8fa4-11c71d6f64e0"
-					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -2778,7 +2643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 96.52 55.88 0)
 			(effects
 				(font

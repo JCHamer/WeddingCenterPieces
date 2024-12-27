@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "SK6812-MINI-E_ReverseMount"
-		(at 0.5 0 0)
+		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
@@ -64,10 +64,10 @@
 			)
 		)
 	)
-	(attr through_hole)
+	(attr smd)
 	(fp_poly
 		(pts
-			(xy -2.6 1.5) (xy -2 1.5) (xy -2 2.1)
+			(xy -2.7 1.5) (xy -2.1 1.5) (xy -2.1 2.1)
 		)
 		(stroke
 			(width 0.1)
@@ -184,7 +184,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "8f67f2da-e659-486c-8c94-7ff71c82c403")
 	)
-	(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
+	(model "/home/jonathan/Programming/Workspace/KiCAD/GlobalParts/Footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -192,7 +192,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 0 0)
+			(xyz 90 0 180)
 		)
 	)
 )
