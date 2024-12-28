@@ -2579,10 +2579,6 @@
 		(at 177.8 54.61)
 		(uuid "f760e794-4c76-4460-bf7d-17c0f93cdba8")
 	)
-	(no_connect
-		(at 177.8 72.39)
-		(uuid "fe2e5404-e4f6-4da4-9168-b4d4f0c28b94")
-	)
 	(wire
 		(pts
 			(xy 111.76 54.61) (xy 119.38 54.61)
@@ -3539,6 +3535,18 @@
 		)
 		(uuid "31a0b4db-a204-4e07-b94e-835e620888da")
 	)
+	(hierarchical_label "GPO_7_SK6812"
+		(shape input)
+		(at 177.8 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5454d094-e08e-434f-854f-03d780f911aa")
+	)
 	(hierarchical_label "D-"
 		(shape input)
 		(at 62.23 64.77 180)
@@ -3622,6 +3630,52 @@
 			(justify left)
 		)
 		(uuid "fd06b523-97d3-484c-877a-03c9b461011a")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 101.6 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48ef8a57-6541-4ca3-878a-1499396a4c27")
+		(property "Netclass" "USB_Data"
+			(at 102.2985 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 101.6 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "94318db5-5362-46ec-b3c4-0f65b811766c")
+		(property "Netclass" "USB_Data"
+			(at 102.2985 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:Crystal_GND24")

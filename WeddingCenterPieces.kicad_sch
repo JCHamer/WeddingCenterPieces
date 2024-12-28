@@ -1124,6 +1124,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 104.14) (xy 185.42 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee3da940-2fee-4f13-ac2b-a60159d69c6b")
+	)
+	(wire
+		(pts
 			(xy 104.14 83.82) (xy 233.68 83.82)
 		)
 		(stroke
@@ -1978,6 +1988,16 @@
 			)
 			(uuid "cc21d265-09bf-4f8c-9928-8fc6cb4776d7")
 		)
+		(pin "DIN_1" input
+			(at 185.42 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0e5fbb88-0c1f-4416-8daf-8c465171d1d9")
+		)
 		(instances
 			(project "WeddingCenterPieces"
 				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1"
@@ -2281,6 +2301,16 @@
 				(justify right)
 			)
 			(uuid "bbfc8680-120f-4853-900b-bf9357e44382")
+		)
+		(pin "GPO_7_SK6812" input
+			(at 120.65 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e2f1281c-8ba4-4e7b-9fbd-5901a5611fd1")
 		)
 		(instances
 			(project "WeddingCenterPieces"
