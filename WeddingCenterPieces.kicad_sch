@@ -954,16 +954,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 117.475) (xy 120.65 117.475)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89e796dd-74e8-4d6e-b909-d7e1b44ae69d")
-	)
-	(wire
-		(pts
 			(xy 66.04 62.23) (xy 134.62 62.23)
 		)
 		(stroke
@@ -994,16 +984,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 130.81) (xy 153.67 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1643ca7-3398-4f1b-aa38-279c31bd293a")
-	)
-	(wire
-		(pts
 			(xy 154.94 48.26) (xy 185.42 48.26)
 		)
 		(stroke
@@ -1021,16 +1001,6 @@
 			(type default)
 		)
 		(uuid "b906abb0-544d-4e62-b8ed-731846e2d2fe")
-	)
-	(wire
-		(pts
-			(xy 139.7 130.81) (xy 139.7 117.475)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c244ad71-a4c5-4fe0-9252-de759e5a1282")
 	)
 	(wire
 		(pts
@@ -1121,16 +1091,6 @@
 			(type default)
 		)
 		(uuid "e7160caf-6da1-40b5-bae7-5ddbffb51403")
-	)
-	(wire
-		(pts
-			(xy 120.65 104.14) (xy 185.42 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee3da940-2fee-4f13-ac2b-a60159d69c6b")
 	)
 	(wire
 		(pts
@@ -1692,7 +1652,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f96c4515-17f9-48f7-9773-72f64728656c")
@@ -1800,16 +1760,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "COL_2" input
-			(at 153.67 130.81 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "61e8e277-ac42-4967-a8ce-26a353626e8b")
 		)
 		(pin "ROW_1" input
 			(at 153.67 120.65 180)
@@ -1987,16 +1937,6 @@
 				(justify right)
 			)
 			(uuid "cc21d265-09bf-4f8c-9928-8fc6cb4776d7")
-		)
-		(pin "DIN_1" input
-			(at 185.42 104.14 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "0e5fbb88-0c1f-4416-8daf-8c465171d1d9")
 		)
 		(instances
 			(project "WeddingCenterPieces"
@@ -2212,16 +2152,6 @@
 			)
 			(uuid "63e253a8-228e-4c2e-989d-413f9629f905")
 		)
-		(pin "COL_2" input
-			(at 120.65 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "fe8df020-a670-4aa2-85cf-887968dc7e04")
-		)
 		(pin "ROW_1" input
 			(at 120.65 107.315 0)
 			(effects
@@ -2301,16 +2231,6 @@
 				(justify right)
 			)
 			(uuid "bbfc8680-120f-4853-900b-bf9357e44382")
-		)
-		(pin "GPO_7_SK6812" input
-			(at 120.65 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "e2f1281c-8ba4-4e7b-9fbd-5901a5611fd1")
 		)
 		(instances
 			(project "WeddingCenterPieces"

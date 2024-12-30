@@ -5,6 +5,108 @@
 	(uuid "f9db3163-da51-44e9-8124-cc61adb4a825")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Diode:1N4148W"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -314,10 +416,10 @@
 		)
 	)
 	(junction
-		(at 86.36 48.26)
+		(at 35.56 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "26482cc2-624f-4748-8717-25f4989a85c4")
+		(uuid "1789b35c-31cb-4faf-af10-736176c731e5")
 	)
 	(junction
 		(at 45.72 48.26)
@@ -326,16 +428,16 @@
 		(uuid "3a1c756b-fff8-4123-a759-d4acd9690eed")
 	)
 	(junction
-		(at 63.5 55.88)
+		(at 45.72 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a7c55f55-3efa-45be-b33d-94f0855404da")
+		(uuid "8df1d594-7fe5-4490-9c24-ec5ee1b6f6c8")
 	)
 	(junction
-		(at 63.5 81.28)
+		(at 35.56 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fe9d1da1-7084-4c1a-9c3f-273a8702051f")
+		(uuid "c525cc97-5033-4d6f-b018-8db5f7f04553")
 	)
 	(wire
 		(pts
@@ -349,33 +451,23 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 81.28) (xy 31.75 81.28)
+			(xy 35.56 55.88) (xy 63.5 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "104c568b-e3e0-4da6-8fa7-3159837b0a88")
+	)
+	(wire
+		(pts
+			(xy 63.5 81.28) (xy 35.56 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "153a95cb-85e0-4f59-b74f-8d95d4026809")
-	)
-	(wire
-		(pts
-			(xy 86.36 48.26) (xy 86.36 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25dfa1d9-f4b1-4107-8791-ae82a2708f30")
-	)
-	(wire
-		(pts
-			(xy 86.36 25.4) (xy 86.36 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3158e732-9fff-4ea3-ac54-5b92f5ae2977")
 	)
 	(wire
 		(pts
@@ -389,7 +481,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 25.4) (xy 45.72 48.26)
+			(xy 45.72 39.37) (xy 45.72 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59ed334f-3d3e-4a65-9ed0-f9b7b0012bcc")
+	)
+	(wire
+		(pts
+			(xy 45.72 25.4) (xy 45.72 39.37)
 		)
 		(stroke
 			(width 0)
@@ -399,23 +501,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 73.66) (xy 104.14 81.28)
+			(xy 35.56 81.28) (xy 31.75 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c829a87-773e-4973-a946-2bfed6cf40e6")
-	)
-	(wire
-		(pts
-			(xy 63.5 55.88) (xy 104.14 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5499246-814e-4e31-b530-8158380edc0b")
+		(uuid "c19640d4-c6cd-4cae-b27a-ee71617fe1c1")
 	)
 	(wire
 		(pts
@@ -429,44 +521,13 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 81.28) (xy 104.14 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c957919f-f912-49db-ad29-d309373cb51e")
-	)
-	(wire
-		(pts
-			(xy 104.14 48.26) (xy 104.14 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc5fe9e4-295a-4cda-99bf-13f9ab44d8c2")
-	)
-	(wire
-		(pts
-			(xy 31.75 55.88) (xy 63.5 55.88)
+			(xy 31.75 55.88) (xy 35.56 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "db36cec3-9e88-465a-991e-cf3bc2d21e1c")
-	)
-	(label "COL_2"
-		(at 86.36 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "508fe62f-2819-4daf-be9b-1d15081014d5")
 	)
 	(label "ROW_2"
 		(at 35.56 81.28 0)
@@ -524,18 +585,6 @@
 			(justify left)
 		)
 		(uuid "596b59ae-45bb-492b-b551-8f10b1ec7e52")
-	)
-	(hierarchical_label "COL_2"
-		(shape input)
-		(at 86.36 25.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b09dc178-74f0-476d-9003-9657aae1d9e8")
 	)
 	(hierarchical_label "ROW_1"
 		(shape input)
@@ -624,33 +673,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 91.44 48.26 0)
+		(lib_id "Connector:TestPoint")
+		(at 35.56 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0ffc3a79-25c6-4a27-8f04-3d2e0660f5d8")
-		(property "Reference" "K3"
-			(at 91.44 40.64 0)
+		(uuid "18285812-83fc-4e49-be2a-c110f82befc3")
+		(property "Reference" "TP6"
+			(at 38.1 83.3119 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 91.44 43.18 0)
+		(property "Value" "Row2"
+			(at 38.1 85.8519 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_MX_optional_reversible"
-			(at 91.44 43.18 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 30.48 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -659,7 +710,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 43.18 0)
+			(at 30.48 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -667,8 +718,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 91.44 48.26 0)
+		(property "Description" "test point"
+			(at 35.56 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -677,108 +728,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e0e0a116-1175-4b25-9b25-e5eabf6996c3")
-		)
-		(pin "2"
-			(uuid "9c389cfa-ec5f-4476-9f8f-fe7833ca8aff")
-		)
-		(instances
-			(project "cheapino"
-				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1/102c4ac7-9dfb-411a-bce5-c6035c42c9ce"
-					(reference "K3")
-					(unit 1)
-				)
-			)
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "K4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148W")
-		(at 100.33 73.66 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13f31732-c3e1-40af-9b5e-aa0699d5f06b")
-		(property "Reference" "D4"
-			(at 100.33 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148W"
-			(at 100.33 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Keebio-Parts:Diode-dual"
-			(at 100.33 78.105 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 100.33 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 100.33 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 100.33 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 100.33 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b5ab4bad-568f-4763-b623-10544b2f8759")
-		)
-		(pin "1"
-			(uuid "8f82997f-ff45-47bb-9e88-01523c5ded0e")
+			(uuid "1f98bd47-0c31-4ebe-9106-20af61c92a42")
 		)
 		(instances
 			(project "WeddingCenterPieces"
 				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1/102c4ac7-9dfb-411a-bce5-c6035c42c9ce"
-					(reference "D4")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -811,7 +766,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:Diode-dual"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 59.69 52.705 0)
 			(effects
 				(font
@@ -872,33 +827,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 91.44 73.66 0)
+		(lib_id "Connector:TestPoint")
+		(at 45.72 39.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5a95f457-c1bf-4e76-9721-53b32488e0e1")
-		(property "Reference" "K4"
-			(at 91.44 66.04 0)
+		(uuid "59961d3e-0f3f-47a7-a487-f569d8e3c15d")
+		(property "Reference" "TP4"
+			(at 42.418 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 91.44 68.58 0)
+		(property "Value" "Col1"
+			(at 42.418 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "keyswitches:Kailh_socket_MX"
-			(at 91.44 68.58 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 45.72 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -907,7 +862,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 68.58 0)
+			(at 45.72 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -915,8 +870,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 91.44 73.66 0)
+		(property "Description" "test point"
+			(at 45.72 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -925,108 +880,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7432b87e-01ce-4583-bcd4-aa9715e43bf3")
-		)
-		(pin "2"
-			(uuid "03cbaca3-5f07-46ce-b1ef-edf5fbb4519e")
+			(uuid "63b9327d-bb65-4caa-9ccb-95b6d6b35f62")
 		)
 		(instances
-			(project "cheapino"
+			(project ""
 				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1/102c4ac7-9dfb-411a-bce5-c6035c42c9ce"
-					(reference "K4")
-					(unit 1)
-				)
-			)
-			(project "cheapino"
-				(path "/9203b006-47ac-4f34-8cc4-2b709e3df56f/ef93f48f-e975-41f5-b90d-770a980a84dd"
-					(reference "K5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148W")
-		(at 100.33 48.26 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "902358a5-ef29-4f23-83b0-eaa0b49a04c1")
-		(property "Reference" "D3"
-			(at 100.33 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148W"
-			(at 100.33 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Keebio-Parts:Diode-dual"
-			(at 100.33 52.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 100.33 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 100.33 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 100.33 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 100.33 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6f4cc0c5-a8bc-49d1-8f49-a9412dc93a65")
-		)
-		(pin "1"
-			(uuid "91781601-437b-4aa9-8493-6bb6b439586d")
-		)
-		(instances
-			(project "WeddingCenterPieces"
-				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1/102c4ac7-9dfb-411a-bce5-c6035c42c9ce"
-					(reference "D3")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -1133,7 +992,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:Diode-dual"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 59.69 78.105 0)
 			(effects
 				(font
@@ -1188,6 +1047,73 @@
 			(project "WeddingCenterPieces"
 				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1/102c4ac7-9dfb-411a-bce5-c6035c42c9ce"
 					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 35.56 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec1fa1e8-914c-4311-b323-6755894a70a1")
+		(property "Reference" "TP5"
+			(at 38.1 57.9119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Row1"
+			(at 38.1 60.4519 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 30.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 35.56 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78cf8f61-81f4-4107-bf6c-8c64382e853e")
+		)
+		(instances
+			(project "WeddingCenterPieces"
+				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1/102c4ac7-9dfb-411a-bce5-c6035c42c9ce"
+					(reference "TP5")
 					(unit 1)
 				)
 			)

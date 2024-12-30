@@ -2484,6 +2484,10 @@
 		(uuid "fa7b8276-383d-4dd1-86ec-c96f0a96fe96")
 	)
 	(no_connect
+		(at 177.8 92.71)
+		(uuid "080c6901-d780-4ade-aead-78eafabc60a6")
+	)
+	(no_connect
 		(at 177.8 115.57)
 		(uuid "09ea484d-6f74-4251-896d-c9657ce0f8fc")
 	)
@@ -2502,6 +2506,10 @@
 	(no_connect
 		(at 177.8 80.01)
 		(uuid "2be70b0d-eb6c-4053-a9ae-1ab50eb7a2fc")
+	)
+	(no_connect
+		(at 177.8 72.39)
+		(uuid "2e90bdf2-bac5-4243-9994-b4c29ee1001b")
 	)
 	(no_connect
 		(at 177.8 57.15)
@@ -3535,18 +3543,6 @@
 		)
 		(uuid "31a0b4db-a204-4e07-b94e-835e620888da")
 	)
-	(hierarchical_label "GPO_7_SK6812"
-		(shape input)
-		(at 177.8 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5454d094-e08e-434f-854f-03d780f911aa")
-	)
 	(hierarchical_label "D-"
 		(shape input)
 		(at 62.23 64.77 180)
@@ -3606,18 +3602,6 @@
 			(justify left)
 		)
 		(uuid "c83e967e-67a9-45e3-8292-b27130f963fc")
-	)
-	(hierarchical_label "COL_2"
-		(shape input)
-		(at 177.8 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d202c27f-830f-483f-bd25-03afc2a77439")
 	)
 	(hierarchical_label "GPO_6_SK6812"
 		(shape input)
@@ -4698,7 +4682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 69.85 54.102 90)
 			(effects
 				(font
@@ -5586,7 +5570,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 69.85 62.992 90)
 			(effects
 				(font
