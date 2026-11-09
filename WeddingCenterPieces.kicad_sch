@@ -1,155 +1,10 @@
 (kicad_sch
-	(version 20231120)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(uuid "4e0ee48d-0121-4621-a533-4795bdfb88f1")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Diode:1N5819"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N5819"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N5819_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N5819_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -157,8 +12,12 @@
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "H"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -167,6 +26,8 @@
 			)
 			(property "Value" "MountingHole"
 				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -175,47 +36,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Mounting Hole without connection"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "mounting hole"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "MountingHole*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "MountingHole_0_1"
@@ -231,406 +102,8 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPST"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPST_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPST_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:+3V3"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:+5V"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-	)
-	(junction
-		(at 53.34 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79fb605e-1124-4b21-bd60-8e95ae21ca13")
-	)
-	(wire
-		(pts
-			(xy 158.75 55.88) (xy 158.75 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0840cc6d-ded1-4129-96dd-8d02c0dd8bab")
-	)
-	(wire
-		(pts
-			(xy 116.84 46.99) (xy 116.84 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "096662c1-a4a4-4f13-be26-61954fbcaed3")
 	)
 	(wire
 		(pts
@@ -684,26 +157,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 44.45) (xy 240.03 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "299eeeeb-ffec-4a18-bc24-054586d21fc9")
-	)
-	(wire
-		(pts
-			(xy 240.03 101.6) (xy 208.28 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ab1f6bf-79f6-4acb-8d7f-63f882ecc03f")
-	)
-	(wire
-		(pts
 			(xy 142.24 109.855) (xy 120.65 109.855)
 		)
 		(stroke
@@ -711,16 +164,6 @@
 			(type default)
 		)
 		(uuid "2e4582ba-dbbd-40e1-b9ec-a858c20f8f9d")
-	)
-	(wire
-		(pts
-			(xy 48.26 34.29) (xy 175.26 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36487f5f-4f01-4c94-9d40-e7281d11214e")
 	)
 	(wire
 		(pts
@@ -734,16 +177,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 99.06) (xy 237.49 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40f7e7fa-bd40-4929-b96c-70f7758be5f8")
-	)
-	(wire
-		(pts
 			(xy 142.24 123.19) (xy 153.67 123.19)
 		)
 		(stroke
@@ -754,16 +187,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 118.11) (xy 48.26 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "461f23eb-ea85-41f1-bb6a-4bd6d103ca2f")
-	)
-	(wire
-		(pts
 			(xy 120.65 101.6) (xy 185.42 101.6)
 		)
 		(stroke
@@ -771,16 +194,6 @@
 			(type default)
 		)
 		(uuid "49e996dd-5678-415f-a514-3df300a6a42e")
-	)
-	(wire
-		(pts
-			(xy 154.94 55.88) (xy 158.75 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4aeee782-2018-4306-9f53-eb4ad9d271a4")
 	)
 	(wire
 		(pts
@@ -804,16 +217,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 43.18) (xy 185.42 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6472ee41-5c81-494b-b5a5-bf3e2b93af04")
-	)
-	(wire
-		(pts
 			(xy 101.6 81.28) (xy 229.87 81.28)
 		)
 		(stroke
@@ -821,16 +224,6 @@
 			(type default)
 		)
 		(uuid "6a0e395a-dccd-47a2-95c8-38a7384d43a5")
-	)
-	(wire
-		(pts
-			(xy 48.26 118.11) (xy 53.34 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b0d6262-e9f0-4e29-9048-ab292e8d6447")
 	)
 	(wire
 		(pts
@@ -844,16 +237,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 40.64) (xy 185.42 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cc26ce2-168f-4fd9-9212-70e51d74fd7a")
-	)
-	(wire
-		(pts
 			(xy 143.51 107.315) (xy 120.65 107.315)
 		)
 		(stroke
@@ -861,46 +244,6 @@
 			(type default)
 		)
 		(uuid "6e47cfad-0f05-48b4-ab91-0a76780333f8")
-	)
-	(wire
-		(pts
-			(xy 116.84 52.07) (xy 123.19 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f5bdd3b-10f6-4d23-ab68-a8253b38a1f6")
-	)
-	(wire
-		(pts
-			(xy 240.03 44.45) (xy 240.03 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f7dd5c0-1dfb-44aa-a774-3c069a3de3ea")
-	)
-	(wire
-		(pts
-			(xy 66.04 102.87) (xy 74.93 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "719f1413-5403-4ad4-9442-23fbc3c668b8")
-	)
-	(wire
-		(pts
-			(xy 53.34 118.11) (xy 53.34 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ba5047a-43a6-4401-955e-5017a3bc0982")
 	)
 	(wire
 		(pts
@@ -914,36 +257,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 41.91) (xy 226.06 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "824da2b2-66c2-44e7-9094-c14e46b92463")
-	)
-	(wire
-		(pts
-			(xy 175.26 34.29) (xy 175.26 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83f56422-e288-4a11-888b-a9f03f18b56d")
-	)
-	(wire
-		(pts
-			(xy 158.75 50.8) (xy 185.42 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "862753ee-c6d2-47d1-adc9-d1024a5564a2")
-	)
-	(wire
-		(pts
 			(xy 229.87 52.07) (xy 226.06 52.07)
 		)
 		(stroke
@@ -951,16 +264,6 @@
 			(type default)
 		)
 		(uuid "86365d4b-bc81-4355-875f-1b6f884afbf7")
-	)
-	(wire
-		(pts
-			(xy 66.04 62.23) (xy 134.62 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96bea5cf-a9c5-420e-8a6e-a8bdfa5b076b")
 	)
 	(wire
 		(pts
@@ -974,26 +277,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 118.11) (xy 74.93 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a72bb4c-a0b8-49cf-b89a-a1edad2f2b0b")
-	)
-	(wire
-		(pts
-			(xy 154.94 48.26) (xy 185.42 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad0de461-8767-4055-94cb-3d26998ae4d6")
-	)
-	(wire
-		(pts
 			(xy 252.73 33.02) (xy 252.73 154.94)
 		)
 		(stroke
@@ -1001,16 +284,6 @@
 			(type default)
 		)
 		(uuid "b906abb0-544d-4e62-b8ed-731846e2d2fe")
-	)
-	(wire
-		(pts
-			(xy 237.49 99.06) (xy 237.49 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3198605-4cd4-47a6-9295-33abb13874d3")
 	)
 	(wire
 		(pts
@@ -1084,16 +357,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 52.07) (xy 134.62 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7160caf-6da1-40b5-bae7-5ddbffb51403")
-	)
-	(wire
-		(pts
 			(xy 104.14 83.82) (xy 233.68 83.82)
 		)
 		(stroke
@@ -1102,39 +365,22 @@
 		)
 		(uuid "f56e4185-64d8-4df2-ad02-320a443510dd")
 	)
-	(wire
-		(pts
-			(xy 66.04 102.87) (xy 66.04 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb634bdc-6fdf-4085-856a-c46f399ff66b")
-	)
-	(label "VSYS"
-		(at 116.84 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0389693a-9c49-4a03-8588-e5e98538635f")
-	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 43.18 162.56 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12c7d2ca-846a-4eec-9284-11cb2ec70fd2")
 		(property "Reference" "H2"
 			(at 45.72 161.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1144,6 +390,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 45.72 163.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1153,29 +401,35 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
 			(at 43.18 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 43.18 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
 			(at 43.18 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -1188,83 +442,21 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 116.84 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2cbd5ff8-f212-4f5b-9375-685703c8349c")
-		(property "Reference" "#PWR03"
-			(at 116.84 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 116.84 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e4555ef-138a-439c-bfd5-8b4c4fcc8f69")
-		)
-		(instances
-			(project "WeddingCenterPieces"
-				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 43.18 172.72 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e215d73-a744-47e4-8d65-6caf3db7bb13")
 		(property "Reference" "H4"
 			(at 45.72 171.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1274,6 +466,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 45.72 173.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1283,29 +477,35 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
 			(at 43.18 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 43.18 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
 			(at 43.18 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -1318,83 +518,21 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 181.61 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a4e5811-f5ff-4f6a-be39-ea339c1f7541")
-		(property "Reference" "#PWR021"
-			(at 181.61 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 181.61 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 181.61 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d53ef5f5-d25d-4243-a2b3-a1358590a355")
-		)
-		(instances
-			(project "WeddingCenterPieces"
-				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 43.18 167.64 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71e684e7-5e3a-4072-ad55-099ef227962b")
 		(property "Reference" "H3"
 			(at 45.72 166.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1404,6 +542,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 45.72 168.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1413,29 +553,35 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
 			(at 43.18 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 43.18 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
 			(at 43.18 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -1451,14 +597,18 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 43.18 157.48 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "756fb4b5-c410-4b7c-8921-149d732e073f")
 		(property "Reference" "H1"
 			(at 45.72 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1468,6 +618,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 45.72 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1477,29 +629,35 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
 			(at 43.18 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 43.18 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
 			(at 43.18 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -1511,231 +669,26 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 53.34 104.14 0)
-		(unit 1)
+	(sheet
+		(at 153.67 115.57)
+		(size 31.75 18.415)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "956fca7b-6a61-48df-914e-cd43daa848aa")
-		(property "Reference" "#PWR02"
-			(at 53.34 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 53.34 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "738b8b3d-25b7-4bcb-a88e-ba261d4a999f")
-		)
-		(instances
-			(project "WeddingCenterPieces"
-				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N5819")
-		(at 127 52.07 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9da46e7-9666-4eba-bba0-2e7ec760c2c8")
-		(property "Reference" "D5"
-			(at 126.6825 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N5819"
-			(at 126.6825 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 127 47.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-			(at 127 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e4d9601-dea4-4ae8-9f3e-a462b598d2ce")
-		)
-		(pin "2"
-			(uuid "73212bfd-92de-4c4b-8bb6-c76c26d9c525")
-		)
-		(instances
-			(project "WeddingCenterPieces"
-				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 53.34 109.22 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f96c4515-17f9-48f7-9773-72f64728656c")
-		(property "Reference" "SW1"
-			(at 55.88 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Btn_OnBoard"
-			(at 55.88 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
-			(at 53.34 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc0bbe60-0cff-4397-a04f-46b6eaa450e3")
-		)
-		(pin "2"
-			(uuid "9fc0b2f6-fca2-4181-a8c6-83fdf2c9d346")
-		)
-		(instances
-			(project "WeddingCenterPieces"
-				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-			(project "ShellyBreakout"
-				(path "/aff568e2-0deb-4ed8-8356-0052b38ed745"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 153.67 115.57)
-		(size 31.75 18.415)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "102c4ac7-9dfb-411a-bce5-c6035c42c9ce")
 		(property "Sheetname" "Key Switches"
 			(at 153.67 114.8584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1745,6 +698,8 @@
 		)
 		(property "Sheetfile" "KeySwitches.kicad_sch"
 			(at 153.67 134.5696 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1754,42 +709,44 @@
 		)
 		(property "Field2" ""
 			(at 153.67 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "ROW_1" input
 			(at 153.67 120.65 180)
+			(uuid "c5662960-7866-4cfc-919f-722fce50e37a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c5662960-7866-4cfc-919f-722fce50e37a")
 		)
 		(pin "ROW_2" input
 			(at 153.67 123.19 180)
+			(uuid "0f8df04f-c613-4675-9758-4350285d574a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0f8df04f-c613-4675-9758-4350285d574a")
 		)
 		(pin "COL_1" input
 			(at 153.67 128.27 180)
+			(uuid "e0af7582-a60d-4edf-bdf2-7c3b704b6af5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e0af7582-a60d-4edf-bdf2-7c3b704b6af5")
 		)
 		(instances
 			(project "WeddingCenterPieces"
@@ -1800,98 +757,25 @@
 		)
 	)
 	(sheet
-		(at 134.62 41.91)
-		(size 20.32 22.225)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "5e4c62e3-b615-407a-9cf1-a60a2c093e49")
-		(property "Sheetname" "9VTo5VSupply"
-			(at 134.62 41.1984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "9VTo5VSupply.kicad_sch"
-			(at 134.62 64.7196 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "Batt+" input
-			(at 154.94 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "30b5124d-8b42-4072-85f1-d3a0751d60fd")
-		)
-		(pin "Batt-" input
-			(at 154.94 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "ca12c814-7770-4c08-b94a-8eeb9a2fddc6")
-		)
-		(pin "+5V" output
-			(at 134.62 52.07 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "2a078a5b-adb8-46f1-8c57-68caa690a550")
-		)
-		(pin "VBatt_Sense" output
-			(at 134.62 62.23 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "fb1406e6-271d-4c4b-b211-43fa54becf1c")
-		)
-		(instances
-			(project "WeddingCenterPieces"
-				(path "/4e0ee48d-0121-4621-a533-4795bdfb88f1"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 185.42 97.155)
 		(size 22.86 9.525)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "959cab23-3f14-4c5e-8fa4-11c71d6f64e0")
 		(property "Sheetname" "Lighting"
 			(at 185.42 96.4434 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1901,6 +785,8 @@
 		)
 		(property "Sheetfile" "Lighting.kicad_sch"
 			(at 185.42 107.2646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1910,33 +796,33 @@
 		)
 		(pin "DOUT_0" input
 			(at 208.28 101.6 0)
+			(uuid "b9973a5e-2309-4b88-8904-2a66c84fe0ea")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b9973a5e-2309-4b88-8904-2a66c84fe0ea")
 		)
 		(pin "DIN_0" input
 			(at 185.42 101.6 180)
+			(uuid "e808b5ab-0357-4664-a6a6-50c8529270a7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e808b5ab-0357-4664-a6a6-50c8529270a7")
 		)
 		(pin "LEDPWR" input
 			(at 208.28 99.06 0)
+			(uuid "cc21d265-09bf-4f8c-9928-8fc6cb4776d7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cc21d265-09bf-4f8c-9928-8fc6cb4776d7")
 		)
 		(instances
 			(project "WeddingCenterPieces"
@@ -1949,17 +835,23 @@
 	(sheet
 		(at 185.42 29.845)
 		(size 40.64 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "bc29a0ee-f798-4f3b-aeba-4202e27d4f36")
 		(property "Sheetname" "External Connectors"
 			(at 185.42 29.1334 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1969,6 +861,8 @@
 		)
 		(property "Sheetfile" "ExtConnectors.kicad_sch"
 			(at 185.42 55.8296 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1978,112 +872,54 @@
 		)
 		(property "Field2" ""
 			(at 185.42 29.845 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
-		)
-		(pin "Batt-" input
-			(at 185.42 50.8 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "d93c0ede-dda4-4316-a3b0-ef8c3725a199")
-		)
-		(pin "Batt+" input
-			(at 185.42 48.26 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f7081ec7-5880-4d9c-ba77-0a1878561448")
-		)
-		(pin "LED_PWR" input
-			(at 226.06 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "f09aba08-b945-4fe2-9c0d-ceaa8bf08c4e")
-		)
-		(pin "LED_Data" input
-			(at 226.06 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "db86df84-c73a-4b8a-9db1-4a20902a0819")
-		)
-		(pin "Btn-" input
-			(at 185.42 43.18 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c771da6f-7700-4817-9e29-e513cf4b2854")
-		)
-		(pin "Btn+" input
-			(at 185.42 40.64 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c02cb3fb-c355-4fba-a409-19caa13ecd4f")
 		)
 		(pin "USB_D-" input
 			(at 226.06 52.07 0)
+			(uuid "5d9c3335-be53-4978-b398-19269d453f6d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5d9c3335-be53-4978-b398-19269d453f6d")
 		)
 		(pin "USB_D+" input
 			(at 226.06 49.53 0)
+			(uuid "68696cd9-d254-4ed9-8c37-f37f3371b0c3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "68696cd9-d254-4ed9-8c37-f37f3371b0c3")
 		)
 		(pin "SWD" input
 			(at 226.06 35.56 0)
+			(uuid "ad5420a5-94d4-4e8e-8153-77ef50996fba")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ad5420a5-94d4-4e8e-8153-77ef50996fba")
 		)
 		(pin "SWCLK" input
 			(at 226.06 33.02 0)
+			(uuid "4ed6041e-43b4-4311-bf9a-940d80ba4589")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4ed6041e-43b4-4311-bf9a-940d80ba4589")
 		)
 		(instances
 			(project "WeddingCenterPieces"
@@ -2096,17 +932,23 @@
 	(sheet
 		(at 74.93 95.25)
 		(size 45.72 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "fc5f2ec4-3886-4f1b-8c95-266f3b52f8eb")
 		(property "Sheetname" "Microcontroller"
 			(at 74.93 94.5384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2116,6 +958,8 @@
 		)
 		(property "Sheetfile" "micro.kicad_sch"
 			(at 74.93 121.2346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2125,112 +969,94 @@
 		)
 		(property "Field2" ""
 			(at 74.93 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
-		)
-		(pin "Btn-" input
-			(at 74.93 118.11 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "2db61110-5277-44fd-b99b-8cfdf1458280")
 		)
 		(pin "COL_1" input
 			(at 120.65 114.935 0)
+			(uuid "63e253a8-228e-4c2e-989d-413f9629f905")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "63e253a8-228e-4c2e-989d-413f9629f905")
 		)
 		(pin "ROW_1" input
 			(at 120.65 107.315 0)
+			(uuid "fa06ecf8-7214-4d0b-a843-f4deab0d58c8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fa06ecf8-7214-4d0b-a843-f4deab0d58c8")
 		)
 		(pin "ROW_2" input
 			(at 120.65 109.855 0)
+			(uuid "cdebea0b-9dac-4840-ac82-602f744c6d4c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cdebea0b-9dac-4840-ac82-602f744c6d4c")
-		)
-		(pin "VBattSense" input
-			(at 74.93 102.87 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f53468e0-4fab-4fc8-b3f7-db3cfef3d74d")
 		)
 		(pin "D-" input
 			(at 101.6 95.25 90)
+			(uuid "1485c7ac-eef9-41ba-9f0b-66331841ee95")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1485c7ac-eef9-41ba-9f0b-66331841ee95")
 		)
 		(pin "D+" input
 			(at 104.14 95.25 90)
+			(uuid "f769ce71-c003-43b2-b5e2-4047887f336b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f769ce71-c003-43b2-b5e2-4047887f336b")
 		)
 		(pin "SWD" input
 			(at 101.6 120.65 270)
+			(uuid "972e6148-320c-4776-a22e-cc7432371318")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "972e6148-320c-4776-a22e-cc7432371318")
 		)
 		(pin "SWCLK" input
 			(at 97.79 120.65 270)
+			(uuid "5c426c81-db83-4e34-a31a-ab9534cdedc6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5c426c81-db83-4e34-a31a-ab9534cdedc6")
 		)
 		(pin "GPO_6_SK6812" input
 			(at 120.65 101.6 0)
+			(uuid "bbfc8680-120f-4853-900b-bf9357e44382")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bbfc8680-120f-4853-900b-bf9357e44382")
 		)
 		(instances
 			(project "WeddingCenterPieces"
@@ -2245,4 +1071,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
